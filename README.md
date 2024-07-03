@@ -46,23 +46,24 @@ The MSc Dissertation Topic Allocation System is a web application designed to si
  Features
 </summary> <br />
 
-<p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/9908a54a-7d49-4dbb-8f5e-3e99b7cadf30.png" alt="apis"/>
-&nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/ff406403-27f7-42b5-9569-d011432f16e5.png" alt="data-models"/>
-</p>
+### Motivation
 
-<p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/62c8d533-8475-4290-abc8-c433c095e68a.png" alt="plugins"/>
-&nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/9c67a354-a06f-47d1-a118-ab89b775bf91.png" alt="microservices"/>
-</p> 
-    
-<p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/149934977/4daf03a4-0866-49c9-8dd6-a340f3465c73" alt="own-your-code"/>
-&nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/1cca9721-b8d6-425b-a1a9-d10d3cdcc9b8.png" alt="customize-code"/>
-</p>
+As graduate students near the culmination of their academic journey, they face a critical academic milestone - completing their dissertation projects. This pivotal phase typically revolves around the selection of suitable dissertation topics, a process that in practice proves time-consuming. It demands multiple meetings and consultations with potential supervisors, requiring careful evaluation of research interests and academic expertise.
+
+Course administrators play a crucial role in the dissertation topic selection process, balancing the need for rapid topic assignment while ensuring students are matched with topics aligned with their academic pursuits. This traditional approach, often lacking in information technology solutions, tends to be inefficient and prone to errors, thereby compromising the precision of the entire topic selection process.
+
+To effectively address these complex challenges, a technology-driven solution becomes a promising approach. This solution leverages information technology and data-driven algorithms to automate and enhance the dissertation topic assignment process. In this context, developing a web-based application becomes particularly critical, aiming to simplify and optimize the assignment process. The application allows students to seamlessly submit their topic preferences through an online system, utilizes sophisticated automated allocation algorithms to strive for optimal matches of dissertation topics for each student, maintaining efficiency and accuracy.
+
+### Objectives
+
+The primary objective of this study is to design, develop, and implement an MSc Dissertation Topic Allocation System that aims to meet the following key requirements and objectives:
+
+- **Enhance efficiency and transparency in the topic selection process**: Traditional topic selection processes rely on physical or electronic files, which may suffer from lack of transparency and inefficiencies. The system's primary goal is to improve the efficiency of the topic selection process, ensuring faculty can easily upload topics, students can quickly view and select topics of interest, thereby accelerating the entire topic selection workflow.
+- **Optimize student preference matching**: By introducing mechanisms for students to express preferences, the system aims to optimize the topic assignment process. Students can rate each topic, ensuring better alignment with their needs and interests.
+- **Provide online allocation functionality**: The system will offer online allocation capabilities, enabling supervisors or course administrators to efficiently assign topics based on student preferences, academic backgrounds, and other relevant factors. This helps ensure topics are matched with students' research interests and potential, thereby enhancing the quality of graduate dissertation projects.
+- **Data management and analytics**: The system will collect and display data related to the topic allocation process. This data will assist academic institutions and administrators in real-time monitoring of topic allocation, enabling informed policies and decisions through data analysis, ultimately optimizing management of graduate dissertation topic selections.
+
+By achieving these objectives, the MSc Dissertation Topic Selection System is expected to improve and simplify traditional topic selection processes, enhance institutional management efficiency, and provide superior academic resources and support, thereby advancing graduate education and research.
 
 </details>
 
