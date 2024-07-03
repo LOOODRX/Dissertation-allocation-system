@@ -67,18 +67,26 @@ By achieving these objectives, the MSc Dissertation Topic Selection System is ex
 
 </details>
 
-## Usage 
+## User Guide
 
-To get started with Amplication, the hosted version of the product can be used. You can get started immediately at [app.amplication.com](https://app.amplication.com). After the login page, you will be guided through creating your first service. The [website](https://amplication.com) provides an overview of the application, additional information on the product and guides can be found in the [docs](https://docs.amplication.com).
+The MSc Dissertation Topic Allocation System offers a user-friendly interface designed to streamline the process of dissertation topic allocation. Below are the steps to effectively utilize the system:
 
-<details>
-<summary>
-  Tutorials
-</summary> <br />
+1. **Logging In**: Begin by logging into the system using your credentials. This ensures you have access to the necessary functionalities based on your user role (e.g., student, supervisor, administrator).
 
-- [To-do application using Amplication and Angular](https://docs.amplication.com/tutorials/angular-todos)
-- [To-do application using Amplication and React](https://docs.amplication.com/tutorials/react-todos)
-</details>
+2. **View Available Topics**: Upon logging in, navigate to the dashboard or topic selection section. Here, you will find a list of available dissertation topics.
+
+3. **Selecting a Topic**: Review the list of available topics and select a topic that aligns with your research interests and academic goals.
+
+4. **Submitting Preferences**: Some systems allow students to submit their preferences regarding topics. If applicable, indicate your preferences to facilitate the allocation process.
+
+5. **Supervisor Allocation**: Once topics are selected and preferences submitted, supervisors or administrators will allocate topics based on student preferences, academic criteria, and availability.
+
+6. **Confirmation and Feedback**: After topic allocation, you will receive confirmation regarding your assigned dissertation topic. This step ensures transparency and clarity throughout the process.
+
+7. **Monitoring Progress**: Throughout the dissertation process, use the system to monitor progress, submit updates, and communicate with supervisors as necessary.
+
+8. **Completion and Submission**: Upon completion of your dissertation, use the system to submit the final dissertation document or any required materials.
+
 
 ## Development
 
