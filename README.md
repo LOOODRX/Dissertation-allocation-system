@@ -97,18 +97,7 @@ Running Laravel Project Locally
     # Run unit tests
     php artisan test
 
-7. Development Environment Setup Complete:
-   Your Laravel application is now set up locally. You can start making changes and testing features in your development environment.
 </details>
 
-Notes:
-Environment Configuration:
 
-Ensure all necessary environment variables are properly configured in the .env file, including database credentials and any API keys.
-Development Best Practices:
-
-Follow Laravel's conventions for organizing routes, controllers, models, and views to maintain a clean and scalable codebase.
-Troubleshooting:
-
-Refer to Laravel's documentation and community forums for troubleshooting and advanced usage tips.
 
