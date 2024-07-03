@@ -42,76 +42,76 @@ The MSc Dissertation Topic Allocation System offers a user-friendly interface de
 8. **Completion and Submission**: Upon completion of your dissertation, use the system to submit the final dissertation document or any required materials.
 
 
-## Development
-
-Alternatively, instead of using the hosted version of the product, Amplication can be run locally for code generation purposes or contributions - if so, please refer to our [contributing](#contributing_anchor) section.
+Development
+If you prefer to run the project locally instead of using the hosted version, follow these steps to set up your development environment.
 
 <details open>
 <summary>
 Pre-requisites
 </summary> <br />
-To be able to start development on Amplication, make sure that you have the following prerequisites installed:
-
-###
-
-- Node.js
-- Docker
-- Git
+Before you begin development on your Laravel project, ensure that you have the following prerequisites installed on your machine:
+PHP (>= 7.4)
+Composer
+Node.js (recommended LTS version)
+MySQL or another SQL database
+Git
 </details>
-
 <details open>
 <summary>
-Running Amplication
+Running Laravel Project Locally
 </summary> <br />
+Clone the repository and install Composer dependencies:
 
-> **Note**
-> It is also possible to start development with GitHub Codespaces, when navigating to `< > Code`, select `Codespaces` instead of `Local`. Click on either the `+`-sign or the `Create codespace on master`-button.
+bash
+Copy code
+git clone https://github.com/your_username/your_project.git
+cd your_project
+composer install
+Copy the environment configuration file:
 
-Amplication is using a monorepo architecture - powered by <a href="https://nx.dev">Nx Workspaces</a> - where multiple applications and libraries exist in a single repository. To setup a local development environment the following steps can be followed:
+bash
+Copy code
+cp .env.example .env
+Modify the .env file to set up your database connection and other environment-specific configurations.
+Generate an application key:
 
-**BEFORE** you run the following steps make sure:
-1. You have typescript installed locally on you machine ```npm install -g typescript```
-2. You are using a supported node version (check `engines` `node` in the [package.json](./package.json))
-3. You are using a supported npm version (check `engines` `npm` in the [package.json](./package.json))
-4. You have `docker` installed and running on your machine
+bash
+Copy code
+php artisan key:generate
+This command generates a unique application key for encryption purposes.
+Run database migrations and seeders:
 
+bash
+Copy code
+php artisan migrate --seed
+Executes all pending migrations and optionally seeds the database with records.
+Start the development server:
 
-1. Clone the repository and install dependencies:
-```shell
-git clone https://github.com/amplication/amplication.git && cd amplication && npm install
+bash
+Copy code
+php artisan serve
+Launches the development server at http://localhost:8000.
+Additional Commands:
 
-2. Run the setup script, which takes care of installing dependencies, building packages, and setting up the workspace:
-```shell
-npm run setup:dev
+Laravel offers a variety of commands to help with development, such as:
+bash
+shell
+# Run Laravel scheduler (if applicable)
+php artisan schedule:run
 
-3. Running the required infrastructure - view infrastructure component logs
-```shell
-npm run docker:dev
+# Clear application cache
+php artisan cache:clear
 
-4. Apply database migrations
-```shell
-npm run db:migrate:deploy
+# Run unit tests
+php artisan test
+Development Environment Setup Complete:
 
-5. To start developing, run one or more of the applications available under serve:[application] scripts of the package.json.
-```shell
-# running the server component
-npm run serve:server
-
-# running the client component
-npm run serve:client
-
-# running the data-service-generator component
-npm run serve:dsg
-
-# running the git-sync-manager component
-npm run serve:git
-
-# running the plugin-api component
-npm run serve:plugins
-
-Note
-In order to run the Amplication client properly, both the client and server need to be started by the npm run serve:[application] command, as well as an additional component for development on a specific component.
-
-The development environment should now be set up. Additional information on the different application components can be found under packages/[application]/README.md file. Happy hacking! 👾
-
+Your Laravel application is now set up locally. You can start making changes and testing features in your development environment.
 </details>
+Notes:
+Environment Configuration:
+Ensure all necessary environment variables are properly configured in the .env file, including database credentials and any API keys.
+Development Best Practices:
+Follow Laravel's conventions for organizing routes, controllers, models, and views to maintain a clean and scalable codebase.
+Troubleshooting:
+Refer to Laravel's documentation and community forums for troubleshooting and advanced usage tips.
