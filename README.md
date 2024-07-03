@@ -8,10 +8,27 @@
 
 The MSc Dissertation Topic Allocation System is a web application designed to simplify and optimize the process of selecting dissertation topics for master's degree students. Utilizing information technology and data-driven algorithms, the system automates the allocation process, enhancing efficiency and accuracy.
 
-<details open>
-<summary>
- Features
-</summary> <br />
+<details>
+<summary>Features</summary>
+<br />
+
+### Automated Topic Allocation:
+Utilizes data-driven algorithms to automatically allocate dissertation topics to students, improving efficiency and accuracy of assignments.
+
+### Online Topic Management:
+Provides an online interface for teachers to upload and manage dissertation topics, allowing students to browse and select topics of interest.
+
+### Student Preference Matching:
+Enables students to rate and submit preferences for topics, facilitating optimal matching based on individual interests.
+
+### Real-time Data Analysis:
+Collects and displays data related to topic allocation, enabling administrators to monitor and optimize the process in real-time.
+
+### User Role Management:
+Includes roles for students, teachers, and administrators with distinct permissions and functionalities, ensuring secure and efficient system operation.
+
+</details>
+
 
 ### Motivation
 
