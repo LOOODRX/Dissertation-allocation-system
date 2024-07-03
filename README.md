@@ -1,8 +1,8 @@
 
 
-<p align="center">
+<h1 align="center">
   <i align="center">MSc Dissertation Topic Allocation System🚀</i>
-</p>
+</h1>
 
 ## Introduction
 
