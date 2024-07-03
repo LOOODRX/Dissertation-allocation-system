@@ -42,7 +42,8 @@ The MSc Dissertation Topic Allocation System offers a user-friendly interface de
 8. **Completion and Submission**: Upon completion of your dissertation, use the system to submit the final dissertation document or any required materials.
 
 
-Development
+## Development
+
 If you prefer to run the project locally instead of using the hosted version, follow these steps to set up your development environment.
 
 <details open>
@@ -50,68 +51,23 @@ If you prefer to run the project locally instead of using the hosted version, fo
 Pre-requisites
 </summary> <br />
 Before you begin development on your Laravel project, ensure that you have the following prerequisites installed on your machine:
-PHP (>= 7.4)
-Composer
-Node.js (recommended LTS version)
-MySQL or another SQL database
-Git
+
+- PHP (>= 7.4)
+- Composer
+- Node.js (recommended LTS version)
+- MySQL or another SQL database
+- Git
 </details>
+
 <details open>
 <summary>
 Running Laravel Project Locally
 </summary> <br />
-Clone the repository and install Composer dependencies:
 
-bash
-Copy code
-git clone https://github.com/your_username/your_project.git
-cd your_project
-composer install
-Copy the environment configuration file:
+1. **Clone the repository and install Composer dependencies:**
 
-bash
-Copy code
-cp .env.example .env
-Modify the .env file to set up your database connection and other environment-specific configurations.
-Generate an application key:
+   ```bash
+   git clone https://github.com/your_username/your_project.git
+   cd your_project
+   composer install
 
-bash
-Copy code
-php artisan key:generate
-This command generates a unique application key for encryption purposes.
-Run database migrations and seeders:
-
-bash
-Copy code
-php artisan migrate --seed
-Executes all pending migrations and optionally seeds the database with records.
-Start the development server:
-
-bash
-Copy code
-php artisan serve
-Launches the development server at http://localhost:8000.
-Additional Commands:
-
-Laravel offers a variety of commands to help with development, such as:
-bash
-shell
-# Run Laravel scheduler (if applicable)
-php artisan schedule:run
-
-# Clear application cache
-php artisan cache:clear
-
-# Run unit tests
-php artisan test
-Development Environment Setup Complete:
-
-Your Laravel application is now set up locally. You can start making changes and testing features in your development environment.
-</details>
-Notes:
-Environment Configuration:
-Ensure all necessary environment variables are properly configured in the .env file, including database credentials and any API keys.
-Development Best Practices:
-Follow Laravel's conventions for organizing routes, controllers, models, and views to maintain a clean and scalable codebase.
-Troubleshooting:
-Refer to Laravel's documentation and community forums for troubleshooting and advanced usage tips.
