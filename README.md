@@ -1,40 +1,7 @@
-<h1 align="center">
-    <a href="https://amplication.com/#gh-light-mode-only">
-    <img src="./.github/assets/amplication-logo-light-mode.svg">
-    </a>
-    <a href="https://amplication.com/#gh-dark-mode-only">
-    <img src="./.github/assets/amplication-logo-dark-mode.svg">
-    </a>
-</h1>
+
 
 <p align="center">
   <i align="center">MSc Dissertation Topic Allocation System🚀</i>
-</p>
-
-<h4 align="center">
-  <a href="https://github.com/amplication/amplication/actions/workflows/ci.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/amplication/amplication/ci.yml?branch=master&label=pipeline&style=flat-square" alt="continuous integration" style="height: 20px;">
-  </a>
-  <a href="https://github.com/amplication/amplication/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors-anon/amplication/amplication?color=yellow&style=flat-square" alt="contributors" style="height: 20px;">
-  </a>
-  <a href="https://opensource.org/licenses/Apache-2.0">
-    <img src="https://img.shields.io/badge/apache%202.0-blue.svg?style=flat-square&label=license" alt="license" style="height: 20px;">
-  </a>
-  <br>
-  <a href="https://amplication.com/discord">
-    <img src="https://img.shields.io/badge/discord-7289da.svg?style=flat-square&logo=discord" alt="discord" style="height: 20px;">
-  </a>
-  <a href="https://twitter.com/amplication">
-    <img src="https://img.shields.io/twitter/follow/amplication?style=social" alt="twitter" style="height: 20px;">
-  </a>
-  <a href="https://www.youtube.com/c/Amplicationcom">
-    <img src="https://img.shields.io/badge/youtube-d95652.svg?style=flat-square&logo=youtube" alt="youtube" style="height: 20px;">
-  </a>
-</h4>
-
-<p align="center">
-    <img src="https://github.com/amplication/amplication/assets/149934977/80ed0d00-2f08-4bd8-92b1-1a347bb30ba6" alt="dashboard"/>
 </p>
 
 ## Introduction
