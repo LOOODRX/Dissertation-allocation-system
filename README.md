@@ -65,9 +65,50 @@ Running Laravel Project Locally
 </summary> <br />
 
 1. **Clone the repository and install Composer dependencies:**
-
    ```bash
    git clone https://github.com/your_username/your_project.git
    cd your_project
    composer install
+2. Copy the environment configuration file:
+   ```bash
+   cp .env.example .env
+
+3. Generate an application key:
+   ```bash
+   php artisan key:generate
+
+4. Run database migrations and seeders:
+    ```bash
+    php artisan migrate --seed
+
+5. Start the development server:
+    ```bash
+    php artisan serve
+    Launches the development server at http://localhost:8000.
+6. Additional Commands:
+   Laravel offers a variety of commands to help with development, such as:
+    ```bash
+    # Run Laravel scheduler (if applicable)
+    php artisan schedule:run
+    
+    # Clear application cache
+    php artisan cache:clear
+    
+    # Run unit tests
+    php artisan test
+
+7. Development Environment Setup Complete:
+   Your Laravel application is now set up locally. You can start making changes and testing features in your development environment.
+</details>
+
+Notes:
+Environment Configuration:
+
+Ensure all necessary environment variables are properly configured in the .env file, including database credentials and any API keys.
+Development Best Practices:
+
+Follow Laravel's conventions for organizing routes, controllers, models, and views to maintain a clean and scalable codebase.
+Troubleshooting:
+
+Refer to Laravel's documentation and community forums for troubleshooting and advanced usage tips.
 
